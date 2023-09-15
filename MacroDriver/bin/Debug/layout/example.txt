@@ -1,0 +1,12 @@
+CTRL A
+CTRL C
+CTRL V
+layer_down
+pass_line
+pass_line
+pass_line
+layer_up
+new_layer
+ALT CTRL DEL
+layer_down
+layer_up
