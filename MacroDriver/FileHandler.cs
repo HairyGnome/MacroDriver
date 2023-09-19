@@ -172,6 +172,8 @@ namespace MacroDriver
         
         public void ReadFile(String fileName)
         {
+            driver.ClearLayers();
+
             StreamReader reader;
             try
             {

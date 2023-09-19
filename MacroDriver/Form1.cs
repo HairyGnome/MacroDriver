@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using WindowsInput;
 using WindowsInput.Native;
 using System.Windows.Input;
+using System.Reflection;
 
 namespace MacroDriver
 {
@@ -18,7 +19,7 @@ namespace MacroDriver
     public partial class MacroDriver : Form
     {
         // Foreground params
-        string version = "v0.3";
+        string version;
         String[] ports;
         int baudRate = -1;
         String portName = "";
@@ -52,7 +53,11 @@ namespace MacroDriver
         public MacroDriver()
         {
             InitializeComponent();
+            UpdateHandler updateHandler = new UpdateHandler();
+            updateHandler.CheckForUpdates();
             TBConsole.Form = this;
+            Version appVersion = Assembly.GetExecutingAssembly().GetName().Version;
+            version = $"v{appVersion.Major}.{appVersion.Minor}.{appVersion.Build}";
             TBConsole.WriteLine($"Running MacroDriver {version}");
             Initialize();
             LoadConfig();
@@ -194,6 +199,15 @@ namespace MacroDriver
 
 
         public void SetLED(int led) { }
+
+        public void ClearLayers()
+        {
+            for(int i = 0; i < layers.Count; i++)
+            {
+                var layer = layers[i];
+                layer = new List<string>[20];
+            }
+        }
 
         #region FileHandling
 

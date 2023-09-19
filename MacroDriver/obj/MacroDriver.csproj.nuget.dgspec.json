@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\MacroDriver\\MacroDriver.csproj": {}
+    "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\lib\\net45\\MacroDriver\\MacroDriver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\MacroDriver\\MacroDriver.csproj": {
+    "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\lib\\net45\\MacroDriver\\MacroDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\MacroDriver\\MacroDriver.csproj",
+        "projectUniqueName": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\lib\\net45\\MacroDriver\\MacroDriver.csproj",
         "projectName": "MacroDriver",
-        "projectPath": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\MacroDriver\\MacroDriver.csproj",
+        "projectPath": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\lib\\net45\\MacroDriver\\MacroDriver.csproj",
         "packagesPath": "C:\\Users\\Bence\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\MacroDriver\\obj\\",
+        "outputPath": "C:\\Users\\Bence\\Desktop\\Arduino\\MacroDriver\\lib\\net45\\MacroDriver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[1.0.4, )"
             },
+            "Octokit": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "System.IO": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -51,6 +55,10 @@
             "System.IO.Ports": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "squirrel.windows": {
+              "target": "Package",
+              "version": "[2.0.1, )"
             }
           },
           "imports": [

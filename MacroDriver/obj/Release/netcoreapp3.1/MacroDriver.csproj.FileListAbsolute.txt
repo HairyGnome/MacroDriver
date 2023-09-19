@@ -32,3 +32,11 @@ C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\obj\Release\netcoreapp3.1
 C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\obj\Release\netcoreapp3.1\MacroDriver.dll
 C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\obj\Release\netcoreapp3.1\MacroDriver.pdb
 C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\obj\Release\netcoreapp3.1\MacroDriver.genruntimeconfig.cache
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\DeltaCompressionDotNet.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\Mono.Cecil.Mdb.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\Mono.Cecil.Pdb.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\Mono.Cecil.Rocks.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\Mono.Cecil.dll
+C:\Users\Bence\Desktop\Arduino\MacroDriver\MacroDriver\bin\Release\netcoreapp3.1\SharpCompress.dll
